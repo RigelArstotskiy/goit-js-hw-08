@@ -101,8 +101,3 @@ list.addEventListener("click", (event) => {
   modal.show();
 });
 list.insertAdjacentHTML("afterbegin", markup);
-list.onclick = () => {
-  basicLightbox
-    .create(`img width="1112" height="640" src=${largeImageURL}`)
-    .show();
-};
